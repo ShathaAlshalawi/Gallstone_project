@@ -10,7 +10,7 @@ This project uses the **Gallstone-1 dataset** to study patterns in patient healt
 whether a person is at risk of developing gallstones.
 
 
-Gallstones are a widespread health issue that can cause severe abdominal pain and other complications if not detected early. By analyzing medical attributes such as age, weight, cholesterol, and lifestyle factors, our goal is to:
+Gallstones are a widespread health issue that can cause severe abdominal pain and other complications if not detected early. By analyzing medical attributes such as age, weight, cholesterol, and lifestyle factors, **our goal is to**:
 
 
 - **Support Early Detection**: Provide insights that could assist doctors in recognizing patients at higher risk.  
