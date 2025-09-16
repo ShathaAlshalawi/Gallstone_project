@@ -64,15 +64,13 @@ practice both **classification and clustering** methods in a way that is sociall
 
 
 
-|   Class   |       Meaning        | Instances | 
 
-|-----------|----------------------|-----------| 
+| Class | Meaning              | Instances |
+|-------|----------------------|-----------|
+| 0     | Gallstones Present   | 161       |
+| 1     | Gallstones Absent    | 158       |
+| **Total** |                      | **319**   |
 
-|     0     | Gallstones Present   | 161       | 
-
-|     1     | Gallstones Absent    | 158       | 
-
-| **Total** |                      | **319**   | 
 
  
 
