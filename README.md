@@ -55,10 +55,25 @@ practice both **classification and clustering** methods in a way that is sociall
 
 - **Number of Features:** 16 medical and lifestyle attributes   
 
-- **Class Label:** Gallstone Status (0 = Present, 1 = Absent)   
+- **Class Label:** Gallstone Status (0 = Present, 1 = Absent)
 
 
- 
+--- 
+--- 
+
+
+# Visualizations & Data Overview
+
+We created charts to better understand our dataset:
+
+- **Age vs BMI Scatter Plot:** Shows how a patient’s age relates to their BMI, with colors indicating whether they have gallstones. This helps see if certain age or BMI ranges are more likely to have gallstones.  
+
+- **Histograms:** These show how common different values are for Age, BMI, Cholesterol, and Glucose. For example, we can see which age group or BMI range most patients fall into.  
+
+- **Bar Plots:** These show the number of patients by categories like Gender, Comorbidity, and Gallstone Status. It makes it easy to see patterns, like whether more males or females have gallstones.  
+
+
+
 
 ### Class Distribution   
 
