@@ -72,7 +72,7 @@ We created three types of visualizations to understand the dataset:
 2. **Histograms (Numeric Attributes):**  
    Show the distribution of numeric data like Age, BMI, Cholesterol, and Glucose. These plots help identify which ranges of values are most common among patients.
 
-3. **Bar Plots (Categorical Attributes):**  
+3. **Bar Plots (Nominal Attributes):**  
    Show counts for categories such as Gender, Comorbidity, and Gallstone Status. This makes it easy to compare groups and check for patterns, like whether more males or females have gallstones.
 
 ---
