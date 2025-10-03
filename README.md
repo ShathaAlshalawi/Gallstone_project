@@ -59,20 +59,23 @@ practice both **classification and clustering** methods in a way that is sociall
 
 
 --- 
---- 
 
 
-# Visualizations & Data Overview
 
-We created charts to better understand our dataset:
+## Data Visualizations
 
-- **Age vs BMI Scatter Plot:** Shows how a patient’s age relates to their BMI, with colors indicating whether they have gallstones. This helps see if certain age or BMI ranges are more likely to have gallstones.  
+We created three types of visualizations to understand the dataset:
 
-- **Histograms:** These show how common different values are for Age, BMI, Cholesterol, and Glucose. For example, we can see which age group or BMI range most patients fall into.  
+1. **Scatter Plot (Age vs BMI):**  
+   Shows the relationship between a patient’s age and BMI. Points are colored by Gallstone Status, helping us see if certain ages or BMI values are more likely to have gallstones.
 
-- **Bar Plots:** These show the number of patients by categories like Gender, Comorbidity, and Gallstone Status. It makes it easy to see patterns, like whether more males or females have gallstones.  
+2. **Histograms (Numeric Attributes):**  
+   Show the distribution of numeric data like Age, BMI, Cholesterol, and Glucose. These plots help identify which ranges of values are most common among patients.
 
+3. **Bar Plots (Categorical Attributes):**  
+   Show counts for categories such as Gender, Comorbidity, and Gallstone Status. This makes it easy to compare groups and check for patterns, like whether more males or females have gallstones.
 
+---
 
 
 ### Class Distribution   
