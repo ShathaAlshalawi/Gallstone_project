@@ -63,9 +63,9 @@ practice both **classification and clustering** methods in a way that is sociall
 
 To ensure our models are accurate, the raw data was cleaned and standardized in four steps:
 
-1.  **Converting Data Types:** We translated categorical data (like Gender and Comorbidity) into a **numerical format** that the computer can process, expanding the dataset from 16 to **37 features**.
+1.  **Converting Data Types:** We translated categorical data into a **numerical format** that the computer can process, expanding the dataset from 16 to **37 features**.
 2.  **Removing Outliers:** We identified and removed **73 extreme patient records** (outliers) that could mislead the analysis. The final dataset includes **246 patient records**.
-3.  **Standardizing Scales:** We rescaled all numerical features (like Age and Cholesterol) to a consistent range (0 to 1). This prevents features with naturally larger values from unfairly dominating the analysis.
+3.  **Standardizing Scales:** We rescaled all numerical features to a consistent range (0 to 1). This prevents features with naturally larger values from unfairly dominating the analysis.
 4.  **Result:** The cleaned and processed data is saved as `Preprocessed_dataset.csv`.
 
 ---
@@ -89,7 +89,7 @@ We created three types of visualizations to understand the dataset:
 Our analysis of the prepared data revealed three main insights:
 
 * **Feature Relationships:** Charts like **Age vs. BMI** showed patterns and clusters among high-risk patients. We also found a strong link between specific **pre-existing conditions (Comorbidities)** and gallstone presence, identifying key risk factors.
-* **Data Preparation Check:** We reviewed the spread of variables (e.g., Cholesterol) to confirm the need for standardization, ensuring no single factor dominates the model.
+* **Data Preparation Check:** We reviewed the spread of variables to confirm the need for standardization, ensuring no single factor dominates the model.
 * **Class Balance:** The dataset was confirmed to be **well-balanced** (nearly equal patients with and without gallstones), meaning our models will not be biased toward one outcome.
 
 ---
