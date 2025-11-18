@@ -109,8 +109,21 @@ Our analysis of the prepared data revealed three main insights:
  
 
 --- 
+ Interpretation & Analysis [Phase 3]
+
+Decision Tree Analysis:
+- The highest accuracy was achieved using: Gini with the 70/30 split.
+- In general, increasing the training size improves accuracy because the model learns from more data.
+- The Entropy (Information Gain) criterion performed better overall → it tends to make more informative splits, especially with imbalanced data.
 
 
+K-Means Clustering Analysis:
+- The best K value was: 2.0 because it achieved the highest Silhouette Score = 0.202.
+- The WCSS (Within-Cluster Sum of Squares) also helps in evaluation: lower WCSS indicates tighter clusters, but it should be balanced with Silhouette.
+- If the Elbow method shows a clear bend (Elbow) at K such as 3, this confirms that K=3 is the optimal choice. 
+
+
+ --
  
 
 ## Students   
