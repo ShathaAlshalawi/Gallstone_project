@@ -123,7 +123,7 @@ K-Means Clustering Analysis:
 - If the Elbow method shows a clear bend (Elbow) at K such as 3, this confirms that K=3 is the optimal choice. 
 
 
- --
+ ---
  
 
 ## Students   
